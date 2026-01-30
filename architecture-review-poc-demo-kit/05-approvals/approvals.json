@@ -1,0 +1,23 @@
+{
+  "reviewId": "REV-001",
+  "approvals": [
+    {
+      "role": "Reviewer",
+      "user": "Enterprise Architect",
+      "decision": "Approved",
+      "timestamp": "2026-01-20T10:05:00Z"
+    },
+    {
+      "role": "Security",
+      "user": "Security Officer",
+      "decision": "Approved with Conditions",
+      "timestamp": "2026-01-20T10:08:00Z"
+    },
+    {
+      "role": "Approver",
+      "user": "CIO",
+      "decision": "Approved",
+      "timestamp": "2026-01-20T10:12:00Z"
+    }
+  ]
+}

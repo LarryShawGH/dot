@@ -1,0 +1,6 @@
+product_name: Quick Chatbot
+data_classification: Confidential
+internet_facing: true
+uses_ai: true
+secrets_in_code: true
+public_ai_endpoint: true

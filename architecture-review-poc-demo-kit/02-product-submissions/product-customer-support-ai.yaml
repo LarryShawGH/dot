@@ -1,0 +1,24 @@
+product_name: Customer Support AI Agent
+description: >
+  AI-powered virtual agent that assists customers with FAQs,
+  ticket creation, and order status queries.
+
+business_owner: Customer Operations
+data_classification: Confidential
+
+cloud:
+  provider: AWS
+  region: us-east-1
+
+architecture:
+  internet_facing: true
+  uses_ai: true
+  stores_pii: true
+
+integrations:
+  - CRM
+  - Ticketing System
+
+expected_users:
+  internal_agents: 500
+  external_customers: 100000

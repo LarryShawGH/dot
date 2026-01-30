@@ -1,0 +1,20 @@
+{
+  "overallRisk": "High",
+  "passedControls": [
+    "AC-2",
+    "IA-5",
+    "SC-12"
+  ],
+  "failedControls": [
+    {
+      "controlId": "SC-7",
+      "reason": "Internet-facing workload uses public networking",
+      "remediation": "Deploy services into private subnets behind managed ingress"
+    },
+    {
+      "controlId": "AI-1",
+      "reason": "AI model accessed via public endpoint",
+      "remediation": "Use VPC-integrated private AI endpoints"
+    }
+  ]
+}

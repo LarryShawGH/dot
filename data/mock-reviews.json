@@ -1,0 +1,32 @@
+[
+  {
+    "reviewId": "AR-2024-001",
+    "productName": "Identity Gateway Service",
+    "status": "Approved",
+    "lastUpdated": "2024-01-28T14:32:00Z"
+  },
+  {
+    "reviewId": "AR-2024-002",
+    "productName": "Payment Processing API",
+    "status": "In Review",
+    "lastUpdated": "2024-01-29T09:15:00Z"
+  },
+  {
+    "reviewId": "AR-2024-003",
+    "productName": "Data Lake Ingestion Pipeline",
+    "status": "Pending Approval",
+    "lastUpdated": "2024-01-29T11:42:00Z"
+  },
+  {
+    "reviewId": "AR-2024-004",
+    "productName": "Customer Portal Frontend",
+    "status": "Provisioning",
+    "lastUpdated": "2024-01-27T16:20:00Z"
+  },
+  {
+    "reviewId": "AR-2024-005",
+    "productName": "Audit Logging Service",
+    "status": "Draft",
+    "lastUpdated": "2024-01-30T08:05:00Z"
+  }
+]

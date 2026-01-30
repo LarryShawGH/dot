@@ -1,0 +1,27 @@
+[
+  {
+    "controlId": "AC-2",
+    "statement": "Account management: Create, enable, modify, disable, and remove accounts.",
+    "severity": "High"
+  },
+  {
+    "controlId": "AC-7",
+    "statement": "Unsuccessful logon attempts: Enforce limit and lockout after failed attempts.",
+    "severity": "Medium"
+  },
+  {
+    "controlId": "SC-8",
+    "statement": "Transmission confidentiality and integrity: Protect information in transit.",
+    "severity": "High"
+  },
+  {
+    "controlId": "SI-3",
+    "statement": "Malicious code protection: Deploy and maintain anti-malware mechanisms.",
+    "severity": "High"
+  },
+  {
+    "controlId": "AU-6",
+    "statement": "Audit review and analysis: Review and analyze audit records.",
+    "severity": "Medium"
+  }
+]
