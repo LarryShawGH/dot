@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Architecture Review Automation POC
 
 A Next.js 14 demo for automated architecture reviews: submit a product, run a rules engine, view results and a generated Technical Architecture Document (TAD).
