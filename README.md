@@ -44,6 +44,35 @@ As **Admin** (role switcher in top bar), use "Reset Demo Data" to clear reviews,
 - `components/` — Layout, UI, Mermaid diagrams
 - `lib/` — Types, rules engine (`runReview`), TAD generator (`generateTAD`), storage (`reviewStore`), API data
 
+## Deploy / Share via Git
+
+The repo is initialized in this folder. To push to GitHub (or another host):
+
+1. **Create a new repository** on GitHub (or GitLab, etc.) — do *not* initialize with a README if you want to push this code.
+
+2. **Add the remote and push** (replace `YOUR_USERNAME` and `YOUR_REPO` with your repo URL):
+
+   ```bash
+   cd arch-review-poc
+   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
+   git branch -M main
+   git push -u origin main
+   ```
+
+   Or with SSH:
+
+   ```bash
+   git remote add origin git@github.com:YOUR_USERNAME/YOUR_REPO.git
+   git branch -M main
+   git push -u origin main
+   ```
+
+3. **If the remote already exists** (e.g. you cloned first), just push:
+
+   ```bash
+   git push -u origin main
+   ```
+
 ## License
 
 Use as needed for demos and internal sharing.
